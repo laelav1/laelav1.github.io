@@ -1,0 +1,65 @@
+/* ******************************************************************** ABOUT
+*/
+.about
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+.about_texts p
+{
+    margin-bottom: 60px;
+}
+
+.about_texts p:nth-child(2)
+{
+    transform: translateX(-30%);
+}
+
+.about_texts p:last-child
+{
+    transform: translateX(-60%);
+    margin-bottom: 0;
+}
+
+.about_texts,
+.about_img
+{
+    width: 40%;
+}
+
+
+.introname {
+    margin-top: -30%;
+    margin-left: 40%;
+    margin-bottom: 0;
+    width: 40%;
+    /*transform: translateY(-90%);*/
+}
+
+
+.hero p {
+  margin-top:5%;
+  margin-left: 15%;
+}
+
+
+.projets-img-large
+{
+  margin-bottom: 15px;
+}
+/**
+
+ VA FALLOIR QU'ON DISCUTE 😡😡😡😡😡
+*
+.class logo
+{
+    width: 10%;
+    min-width: 30px;
+    position : left
+}
