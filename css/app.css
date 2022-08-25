@@ -87,18 +87,18 @@ b, .font-bold { font-weight: 600; }
 {
     position: relative;
     display: block;
-    width: 105px;
-    height: 105px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    background-color: var(--highlight-color);
+    background-color: #C17112;
 }
 
 .btn-goto span
 {
     display: block;
     position: absolute;
-    top: 52px; left: 22px;
-    width: 61px;
+    top: 45px; left: 18px;
+    width: 51px;
 }
 
 .btn-goto span,
@@ -263,7 +263,10 @@ html
 /* ********************************************************************* FOOTER
 */
 
-.page-footer { padding-bottom: 50px; }
+.page-footer {
+  padding-bottom: 50px;
+  padding-top: 50px;
+ }
 
 .page-footer ul
 {

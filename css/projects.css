@@ -51,7 +51,7 @@
   }
 
 .open{
-  background-color:#ECF9FD;
+  background-color:#white;
   width: 120px;
   height: 30px;
   margin-top: 10px;
@@ -60,7 +60,7 @@
 }
 
 .close{
-  background-color:#ECF9FD;
+  background-color:#white;
   width: 120px;
   height: 30px;
   margin-top: 10px;

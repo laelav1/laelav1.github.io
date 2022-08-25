@@ -54,6 +54,12 @@
 
 }
 
+.about-work-texts-right1
+{
+  text-align: left;
+  margin-right: 500px;
+}
+
 .about-school-texts-left
 {
   display: flex;
@@ -68,7 +74,32 @@
 
 }
 
-.outer-container-cv
+.cv
 {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  box: red;
+  text-decoration: underline;
+  font-size: 20px;
+  color: #C17112;
+}
+
+
+.about-work-picto-left
+{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.about-work-picto-right
+{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.about-softskill-picto p{
+  margin-top: 20px;
+  margin-left: 30px;
 }
