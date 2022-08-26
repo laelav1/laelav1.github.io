@@ -47,18 +47,27 @@
   margin-bottom: 20px;
 }
 
+.about-work-texts-left p
+{
+  margin-bottom: 5px;
+}
+
+.about-work-texts-right p
+{
+  margin-bottom: 5px;
+}
+
 .about-work-texts-right
 {
   display: flex;
   justify-content: space-around;
-
 }
 
-.about-work-texts-right1
+/*.about-work-texts-right1
 {
-  text-align: left;
+  /*text-align: left;
   margin-right: 500px;
-}
+}*/
 
 .about-school-texts-left
 {
@@ -102,4 +111,11 @@
 .about-softskill-picto p{
   margin-top: 20px;
   margin-left: 30px;
+}
+
+
+.about-work-picto-left1
+{
+  display: flex;
+  justify-content: space-between;
 }

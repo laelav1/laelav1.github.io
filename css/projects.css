@@ -115,7 +115,8 @@
 .project-testimonials
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 .project-testimonials:nth-child(even)
 {
@@ -129,9 +130,13 @@
 .project .text-testimonials
 {
   width: 70%;
-  margin-top: 10px;
+  align-self: center;
 }
 
+.project .text-testimonials span
+{
+  margin-top: 10px;
+}
 
 .projects-img-small
 {

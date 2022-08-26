@@ -53,7 +53,13 @@ b, .font-bold { font-weight: 600; }
 }
 
 .text-max {
-    max-width: 385px;
+    max-width: 400px;
+    /*text-align: justify;*/
+    letter-spacing: normal;
+}
+
+.text-max2 {
+    max-width: 700px;
 }
 
 .texts p { margin-bottom: 45px; }
@@ -159,6 +165,14 @@ html
     margin-right: auto;
 }
 
+.container
+{
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: left;
+}
+
 @media only screen and (min-width: 1024px)
 {
     .outer-container
@@ -230,7 +244,7 @@ html
 .site-menu ul li:hover .sub-menu1 {
   display: block;
   background: var(--highlight-color);
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   width: 100px;
   height: 40px;
 }
@@ -341,4 +355,34 @@ html
 
 .logo {
   width : 70px;
+}
+
+
+/* *********************** page analyse
+*/
+.container-problematique
+{
+  display: flex;
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: right;
+}
+
+.container-problematique p
+{
+  margin-left: 300px;
+  /*text-align: justify;*/
+}
+
+.split-item .image1
+{
+  margin-left: 100px;
+}
+
+
+
+.split-item imga
+{
+  width: 40%;
 }
